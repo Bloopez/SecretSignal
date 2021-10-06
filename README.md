@@ -5,7 +5,7 @@ This program grabs the DNS TXT record from a specified domain to obtain and exec
 ## Features
 AES Encryption - Command(payload) is encrypted in AES for delivery to the DNS TXT record
 
-SSL Encryption - Retrieval of payload goes through HTTPS
+SSL Encryption - Retrieval of payload is through HTTPS protocol
 
 Execute recieved command via powershell
 
