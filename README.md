@@ -20,7 +20,7 @@ Responsible for retrieving and executing the payload from DNS TXT record
 
 ## How to build/use
 
->**_NOTE:_** So far this only works with windows. 
+>**_NOTE:_** So far this only works with windows.<
 To use, replace the domain in the main.go file with your domain and run 
 `GOOS=windows GOARCH=amd64 go build main.go`
 to compile the executable
