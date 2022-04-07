@@ -1,13 +1,11 @@
 # DNS over HTTPS backdoor
 
-This program grabs the DNS TXT record from a specified domain to obtain and execute any command given.
+This program grabs the DNS TXT record from a specified domain and executes the content via powershell.
 
 ## Features
 AES Encryption - Command(payload) is encrypted in AES for delivery to the DNS TXT record
 
-SSL Encryption - Retrieval of payload is through HTTPS protocol
-
-Execute recieved command via powershell
+SSL Encryption - Retrieval of payload is through the HTTPS protocol
 
 ### Files & Functions
 
